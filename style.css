@@ -24,3 +24,24 @@ header, footer {
   height: auto;
   display: block;
 }
+
+.about-section {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  width: 250px;
+  font-size: 14px;
+  text-align: left;
+  z-index: 1000;
+}
+
+.about-section h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #007acc;
+}
+
